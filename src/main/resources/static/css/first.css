@@ -30,6 +30,7 @@ body {
 }
 
 .obscured {
+<<<<<<< HEAD
     transform: scale(1.03);
     filter: blur(3px);
 }
@@ -37,6 +38,15 @@ body {
 .oobbss {
     transform: scale(1.03);
     filter: blur(3px);
+=======
+    transform: scale(1.1);
+    filter: blur(10px);
+}
+
+.oobbss {
+    transform: scale(1.1);
+    filter: blur(10px);
+>>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
 }
 
 
@@ -57,11 +67,19 @@ body {
 
 #money {
     position: absolute;
+<<<<<<< HEAD
     top: 19px;
     font-size: 33.5px;
     position: absolute;
     right: 40px;
     color: rgba(255, 255, 255,0.7);
+=======
+    font-size: 33.5px;
+    color: rgba(255, 255, 255,0.7);
+    position: absolute;
+    right: 40px;
+    top: 18px;
+>>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
 }
 /* 登录具体界面 */
 #uBac {
@@ -77,6 +95,7 @@ body {
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.4);
 }
+<<<<<<< HEAD
 #moneypic {
     width: 100%;
     height: 100%;
@@ -90,6 +109,8 @@ body {
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.4);
 }
+=======
+>>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
 #USER {
     margin: 5% 0 0 0;
     height: calc(50% + 180px);
@@ -103,9 +124,14 @@ body {
 }
 #USER2 {
     margin: 5% 0 0 0;
+<<<<<<< HEAD
     height: 650px;
     width: 400px;
     top: calc(5% - 50px);
+=======
+    height: calc(30% + 350px);
+    width: calc(40% + 100px);
+>>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -145,8 +171,13 @@ body {
 }
 #zhi {
     position: absolute;
+<<<<<<< HEAD
     left: 15%;
     width: 70%;
+=======
+    left: 10%;
+    width: 38%;
+>>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
     height: auto;
     bottom: 0;
 }
@@ -157,6 +188,7 @@ body {
     height: auto;
     bottom: 0;
 }
+<<<<<<< HEAD
 #paypage {
     position: absolute;
     top: 88%;
@@ -169,6 +201,8 @@ body {
     border-radius: 10px;
 }
 
+=======
+>>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
 #und {
     position: absolute;
     top: 15%;
@@ -373,8 +407,13 @@ body {
 /* 底部按钮 */
 #bottomCell {
     position: absolute;
+<<<<<<< HEAD
     bottom: 10%;
     right: 5%;
+=======
+    bottom: 50px;
+    right: 50px;
+>>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
 }
 #bottomCell > span {
     display: inline-block;
