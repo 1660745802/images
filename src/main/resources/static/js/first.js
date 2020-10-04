@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 
 console.log("联系我");
 console.log("QQ 1660745802\n" +
     "tele 13617609969");
 
-=======
->>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
 //时钟
 //分秒
 function time() {
@@ -133,10 +130,7 @@ window.onclick = function(e) {
 
 //点击图片切换背景
 var bgDiv=document.getElementById('bgDiv');
-<<<<<<< HEAD
 var gantan=document.getElementById('gantan');
-=======
->>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
 var imagesInfo=null;
 var xhr = new XMLHttpRequest();
 xhr.open('GET',`${window.location.origin}/HPImageArchive.aspx?format=js&n=8`);
@@ -145,12 +139,8 @@ xhr.onreadystatechange=function(){
     if(xhr.readyState===4&&xhr.status===200){
         imagesInfo=JSON.parse(xhr.response);
     }
-<<<<<<< HEAD
     bgDiv.style.backgroundImage=`url('http://cn.bing.com/${imagesInfo.images[0].url}')`;
     gantan.title=imagesInfo.images[0].copyright;
-=======
-    bgDiv.style.backgroundImage=`url('http://cn.bing.com/${imagesInfo.images[7].url}')`;
->>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
 }
 xhr.send();
 
@@ -164,25 +154,16 @@ bottomCell.onclick=function(e){
     var curIndex = bottomCell.dataset['idx']*1;
 
     if(e.target.id==='prev'){
-<<<<<<< HEAD
         curIndex-=1;
         if(curIndex<0){
             curIndex=0;
         }
         if(curIndex==0)prev.style.color="gray";
-=======
-        curIndex+=1;
-        if(curIndex>7){
-            curIndex=7;
-        }
-        if(curIndex==7)prev.style.color="gray";
->>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
         next.style.color="white";
 
         bottomCell.dataset['idx']=curIndex;
         var url=imagesInfo.images[curIndex].url;
         bgDiv.style.backgroundImage=`url('http://cn.bing.com/${url}')`;
-<<<<<<< HEAD
         gantan.title=imagesInfo.images[curIndex].copyright;
     }
     else if(e.target.id==='next'){
@@ -191,24 +172,12 @@ bottomCell.onclick=function(e){
             curIndex=7;
         }
         if(curIndex==7)next.style.color="gray";
-=======
-    }
-    else if(e.target.id==='next'){
-        curIndex-=1;
-        if(curIndex<0){
-            curIndex=0;
-        }
-        if(curIndex==0)next.style.color="gray";
->>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
         prev.style.color="white";
 
         bottomCell.dataset['idx']=curIndex;
         var url=imagesInfo.images[curIndex].url;
         bgDiv.style.backgroundImage=`url('http://cn.bing.com/${url}')`;
-<<<<<<< HEAD
         gantan.title=imagesInfo.images[curIndex].copyright;
-=======
->>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
     }
 }
 
@@ -253,11 +222,7 @@ noteList.onclick = function(e) {
     }
     // 点击具体便笺
     let noteItem = e.path.find(function(element) {
-<<<<<<< HEAD
             return element.classList.contains('note-item');
-=======
-        return element.classList.contains('note-item');
->>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
     })
     if(noteItem) {
         // 选中的样式
@@ -400,7 +365,6 @@ function delmi() {
 }
 var userr = document.getElementById("user");
 var money = document.getElementById("money");
-<<<<<<< HEAD
 var uBac = document.getElementById("uBac");
 var moneypic = document.getElementById("moneypic");
 var paypage1 = document.getElementById("paypage1");
@@ -428,21 +392,6 @@ paypage2.onclick = function () {
     paypage2.classList.add("paypagestyle");
     paypage1.classList.remove("paypagestyle");
     zhi.src="https://user-images.githubusercontent.com/48144936/69716916-08b9d200-1146-11ea-9905-9b91bf48b32e.jpg";
-=======
-var mp = document.getElementById("moneypic");
-var uBac = document.getElementById("uBac");
-userr.onclick = function() {
-    uBac.removeAttribute("style");
-    Middle.style.display='none'; 
-    Clock.style.display='none'; 
-    addmi();
-}
-money.onclick = function() {
-    mp.removeAttribute("style");
-    Middle.style.display='none'; 
-    Clock.style.display='none'; 
-    addmi();
->>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
 }
 
 var closee = document.getElementById("closee");
@@ -454,22 +403,14 @@ closee.onclick = function() {
 }
 var closeee = document.getElementById("closeee");
 closeee.onclick = function() {
-<<<<<<< HEAD
     moneypic.style.display='none';
-=======
-    mp.style.display='none';
->>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
     Middle.removeAttribute("style");
     Clock.removeAttribute("style");
     delmi();
 }
 
 function dengdeng(){
-<<<<<<< HEAD
     let html = `<div style="font-size: 20px;position: absolute;top: 90px;left: 20px;">Hello ${user} :</div><div style="font-size: 17px;position: absolute;width: 80%;left: 10%;top: 25%;">欢迎注册，您现在可以在不同设备上编辑您的便签(自动保存）。 ╥﹏╥... 。</div>`
-=======
-    let html = `<div style="font-size: 20px;position: absolute;top: 90px;left: 20px;">Hello ${user} :</div><div style="font-size: 17px;position: absolute;width: 80%;left: 10%;top: 25%;">欢迎注册，您现在可以在不同设备上编辑您的便签(自动保存）。  因布局问题，请配合电脑浏览器最大化食用 ╥﹏╥... 。</div>`
->>>>>>> 1b7312799bb6a9a2bd1ea04070cf6fb12081c0a9
     let deng = document.querySelector("#deng");
     deng.innerHTML=html;
 }
