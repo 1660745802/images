@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b003293-fe31-459b-9b43-2fe525dbb8bb" name="默认的" comment="默认的" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="sicau/invalid/Spring" />
+      <facet id="sicau/invalid/Web" />
+    </ignored-facets>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U3MmLULEPGDq4WgvSGksoOgJV1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Idea Workstation\sicau\src\main\resources\static\images" />
+      <recent name="F:\Idea Workstation\sicau\src\main\resources\static" />
+      <recent name="F:\Idea Workstation\sicau\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DemoApplication">
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplication" />
+      <module name="sicau" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.deleteMesgById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sicau" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="deleteMesgById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.insertMesg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sicau" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="insertMesg" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sicau" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="selectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.updateMesg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sicau" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="updateMesg" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sicau" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoApplication" />
+        <item itemvalue="JUnit.DemoApplicationTests.deleteMesgById" />
+        <item itemvalue="JUnit.DemoApplicationTests.updateMesg" />
+        <item itemvalue="JUnit.DemoApplicationTests.insertMesg" />
+        <item itemvalue="JUnit.DemoApplicationTests.selectAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b003293-fe31-459b-9b43-2fe525dbb8bb" name="默认的" comment="" />
+      <created>1574580982513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574580982513</updated>
+      <workItem from="1574580988134" duration="345000" />
+      <workItem from="1574581380405" duration="5466000" />
+      <workItem from="1574586911314" duration="9522000" />
+      <workItem from="1574645669860" duration="5414000" />
+      <workItem from="1574652722520" duration="70000" />
+      <workItem from="1574656000476" duration="3544000" />
+      <workItem from="1574677996364" duration="180000" />
+      <workItem from="1574685679006" duration="2478000" />
+      <workItem from="1574688648769" duration="4891000" />
+      <workItem from="1574695087802" duration="174000" />
+      <workItem from="1574695302082" duration="47000" />
+      <workItem from="1574725670358" duration="6399000" />
+      <workItem from="1574737676630" duration="5909000" />
+      <workItem from="1574748601036" duration="8450000" />
+      <workItem from="1574758163590" duration="89000" />
+      <workItem from="1574765573724" duration="248000" />
+      <workItem from="1574778015951" duration="849000" />
+      <workItem from="1574778936772" duration="1262000" />
+      <workItem from="1574820352091" duration="1766000" />
+      <workItem from="1574822711993" duration="76000" />
+      <workItem from="1574823008246" duration="307000" />
+      <workItem from="1574823355077" duration="99000" />
+      <workItem from="1574824698801" duration="150000" />
+      <workItem from="1574824873096" duration="974000" />
+      <workItem from="1574825939259" duration="104000" />
+      <workItem from="1574826105763" duration="124000" />
+      <workItem from="1574826263734" duration="290000" />
+      <workItem from="1574854581093" duration="582000" />
+      <workItem from="1574855603850" duration="199000" />
+      <workItem from="1574858515414" duration="132000" />
+      <workItem from="1574858826084" duration="19000" />
+      <workItem from="1574858878582" duration="225000" />
+      <workItem from="1574861484559" duration="929000" />
+      <workItem from="1574862517283" duration="192000" />
+      <workItem from="1574863153764" duration="64000" />
+      <workItem from="1575037817421" duration="30000" />
+      <workItem from="1575183344196" duration="2051000" />
+      <workItem from="1575371196154" duration="276000" />
+      <workItem from="1575375700377" duration="1088000" />
+      <workItem from="1575379302053" duration="1280000" />
+      <workItem from="1575447134274" duration="1450000" />
+      <workItem from="1575448636291" duration="84000" />
+      <workItem from="1575448829693" duration="32000" />
+      <workItem from="1575449187792" duration="508000" />
+      <workItem from="1575460325156" duration="81000" />
+      <workItem from="1575518478148" duration="949000" />
+      <workItem from="1575521059063" duration="107000" />
+      <workItem from="1575526161947" duration="1183000" />
+      <workItem from="1575885626628" duration="1634000" />
+      <workItem from="1575887351699" duration="81000" />
+      <workItem from="1576908773154" duration="977000" />
+      <workItem from="1576910145938" duration="178000" />
+      <workItem from="1577507596322" duration="593000" />
+      <workItem from="1577764294988" duration="430000" />
+      <workItem from="1577930722282" duration="332000" />
+      <workItem from="1578384706099" duration="1213000" />
+      <workItem from="1578449800587" duration="282000" />
+      <workItem from="1578925600168" duration="23000" />
+      <workItem from="1578925711293" duration="942000" />
+      <workItem from="1578926712154" duration="177000" />
+      <workItem from="1578926977336" duration="117000" />
+      <workItem from="1578927241554" duration="209000" />
+      <workItem from="1578962265226" duration="4327000" />
+      <workItem from="1578972346596" duration="154000" />
+      <workItem from="1579010126514" duration="139000" />
+      <workItem from="1579010333367" duration="941000" />
+      <workItem from="1579012224975" duration="3813000" />
+      <workItem from="1579396647743" duration="141000" />
+      <workItem from="1579397039597" duration="78000" />
+      <workItem from="1579492965725" duration="1287000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1592445846364">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592445846364" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1592445846364">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1592445846364" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1592445846363">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1592445846363" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1592445846364">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1592445846364" />
+  </component>
+</project>

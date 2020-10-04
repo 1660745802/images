@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#bgDiv {
+    width: 100%;
+    height: 100%;
+  /* background-image: url('https://cn.bing.com/th?id=OHR.NaranjoBulnes_ZH-CN0696600867_1920x1080.jpg&rf=LaDigue_1600x900.jpg&pid=hp'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: all 0.4s ease 0s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}
+
+.obscured {
+    transform: scale(1.03);
+    filter: blur(3px);
+}
+
+.oobbss {
+    transform: scale(1.03);
+    filter: blur(3px);
+}
+
+
+
+/* 用户与捐助 */
+.topright {
+    position: relative;
+}
+
+#user {
+    position: absolute;
+    top: 21.5px;
+    font-size: 30px;
+    position: absolute;
+    right: 90px;
+    color: rgba(255, 255, 255,0.7);
+}
+
+#money {
+    position: absolute;
+    top: 19px;
+    font-size: 33.5px;
+    position: absolute;
+    right: 40px;
+    color: rgba(255, 255, 255,0.7);
+}
+/* 登录具体界面 */
+#uBac {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: all 0.4s ease 0s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#moneypic {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: all 0.4s ease 0s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#USER {
+    margin: 5% 0 0 0;
+    height: calc(50% + 180px);
+    width: calc(10% + 300px);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 25px;
+    z-index: 5;
+}
+#USER2 {
+    margin: 5% 0 0 0;
+    height: 650px;
+    width: 400px;
+    top: calc(5% - 50px);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 25px;
+    z-index: 5;
+}
+#Close {
+    height: 50px;
+}
+#closee {
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+#closeee {
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.piccc {
+    position: absolute;
+    top: 15%;
+    height: 70%;
+    width: 100%;
+}
+.zzii {
+    position: absolute;
+    top: 10%;
+    font-size: 20px;
+    left: 10%;
+    height: 10%;
+    width: 80%;
+    text-align: center;
+}
+#zhi {
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    height: auto;
+    bottom: 0;
+}
+#zhi2 {
+    position: absolute;
+    left: 52%;
+    width: 38%;
+    height: auto;
+    bottom: 0;
+}
+#paypage {
+    position: absolute;
+    top: 88%;
+    left: 44%;
+}
+.paypagestyle {
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#und {
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    width: 70%;
+    left: 15%;
+    font-size: 25px;
+    font-family: youyuan;
+    font-weight: 900;
+}
+#inn {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 21%;
+    height: 50px;
+    border: #fff;
+    border-radius: 25px;
+    background-color: rgba(1,1,1,0.15);
+}
+#ukd {
+    position: absolute;
+    top: 34%;
+    text-align: center;
+    width: 70%;
+    left: 15%;
+    font-size: 25px;
+    font-family: youyuan;
+    font-weight: 900;
+}
+#ink {
+    position: absolute;
+    top: 40%;
+    width: 70%;
+    left: 15%;
+    height: 50px;
+    border: #fff;
+    border-radius: 25px;
+    background-color: rgba(1,1,1,0.15);
+}
+#username {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    border: #fff;
+    background-color: rgba(1,1,1,0.001);
+    font-size: 20px;
+    outline: none;
+}
+#userkey {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    border: #fff;
+    background-color: rgba(1,1,1,0.001);
+    font-size: 20px;
+    outline: none;
+}
+#login {
+    position: absolute;
+    top: 70%;
+    left: 14%;
+    width: 30%;
+    height: 50px;
+    font-size: small;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #70bf00;
+}
+#register {
+    position: absolute;
+    top: 70%;
+    left: 56%;
+    width: 30%;
+    height: 50px;
+    font-size: small;
+    border-radius: 20px;
+    border: 1px solid #70bf00;
+    outline: none;
+    color: #70bf00;
+    background-color: transparent;
+}
+#or {
+    position: absolute;
+    top: 72.1%;
+    left: 47%;
+    width: 6%;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+/*搜索框样式*/
+#searchWrapper {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#searchWrapper:hover > #search {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: calc(30% + 150px);
+}
+/*当搜索框获得焦点时*/
+.search-focus {
+    background-color: #fff !important;
+    width: calc(30% + 150px) !important;
+}
+#searchWrapper:hover > #search::-webkit-input-placeholder {
+    color: black;
+}
+#search {
+    width: 190px;
+    height: 25px;
+    padding: 9px 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+    color: black;
+    box-shadow: rgba(0,0,0,0.3) 0px 0px 10px;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+}
+#search::-webkit-input-placeholder,
+#search::-ms-input-placeholder,
+#search::-o-input-placeholder,
+#search::-moz-input-placeholder {
+    transition: all 0.4s ease 0s;
+    color: #fff;
+    font-size: 15px;
+}
+
+#searchSug {
+    width: calc(30% + 180px);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    border: solid;
+    overflow: hidden;
+    border-color: rgba(255,255,255,0);
+}
+#searchSug > ul {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-align: left;
+}
+#searchSug > ul > li {
+    width: 94%;
+    height: 40px;
+    padding: 0 3%;
+    list-style: none;
+    font-size: 14px;
+    line-height: 40px;
+}
+#searchSug > ul > li:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+/* 时间 */
+.clock {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 280px;
+    height: 100px;
+    line-height: 50px;
+    color: white;
+    top: 100px;
+}
+#time {
+    font-size: 60px;
+}
+#date {
+    font-size: 16px;
+}
+#time:hover{
+    font-size: 65px;
+}
+#date:hover {
+    font-size: 18px;
+}
+#clock:hover {
+    border-bottom: 5px solid;
+    border-color: #84eb56;
+    transition: all 0.6s ease 0s;
+}
+
+
+
+/* 底部按钮 */
+#bottomCell {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+#bottomCell > span {
+    display: inline-block;
+    margin: 0 10px;
+}
+#bottomCell > span > i {
+    font-size: 36px;
+    color: white;
+}
+.iconfont-disable {
+    color: #666;
+}
+
+
+
+/* 中间滚动栏 */
+#middle {
+    position: absolute;
+    width: 45%;
+    margin: 20px auto 0;
+    height: 45%;
+    top: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lightSlider {
+    position: relative;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.wrapper > .banner {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    height: 270px;
+    border-radius: 25px;
+    transition: all 0.4s ease 0s;/*监听运动轨迹*/
+}
+
+.control {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    display: inline-block;
+    transform: translateX(-50%);
+}
+
+.control > span {
+    display: inline-block;
+    height: 4px;
+    width: 18px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255,0.5);
+}
+
+
+
+/* 快速链接 */
+#Link {
+    float: left;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    word-break: keep-all;
+}
+.nav_links {
+    text-decoration: none;
+    color: #fff;
+    font-size: small;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 14.6px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    float: left;
+    cursor: pointer;
+    transition: all .25s;
+    border-radius: 20px;
+}
+.nav_links:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+
+/* 便签 */
+*::selection {
+    background-color: rgba(255, 255, 255, 0.40);
+}
+
+/* #note-wrapper {
+    width: 80%;
+
+    position: relative;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+#note-list-wrapper {
+    display: inline-block;
+    width: 190px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 15px;
+    vertical-align: top;/*文本的对齐方式 顶端对齐*/
+}
+
+#note-list {
+    display: inline-block;
+    width: 215px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.note-item {
+    width: 160px;
+    height: 32px;
+    padding: 10px 10px 10px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 0px solid #70c000;
+    transition: all 0.25s ease 0s;
+}
+
+#new-note {
+    height: 16px;
+}
+
+#new-note > span > i {
+    font-size: 12px;
+}
+
+.note-item-selected {
+    border-left: 5px solid #70c000;
+}
+
+.note-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.note-item > span {
+    display: block;
+    width: 160px;
+    height: 16px;
+    font-size: 12px;
+}
+
+.note-title {
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.note-time {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#note {
+    width: calc(100% - 280px);/*css3的计算表达式*/
+    height: 180px;
+    outline: 0;
+    padding: 10px 10px 10px 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+#note-tool-btn {
+    width: 80px;
+    height: 24px;
+    padding-top: 8px;
+    margin-left: 200px;
+}
+
+#note-tool-btn > span {
+    display: inline-block;
+    margin-left: 10px;
+}
+#note-tool-btn > span > i {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.35);
+}
+#note-tool-btn > span > i:hover {
+    color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.MesgDao">
+    <select id="selectMesgByUsername" resultType="com.example.demo.entity.Mesg">
+        select * from mesg where username = #{username}
+    </select>
+    <select id="selectAll" resultType="com.example.demo.entity.Mesg">
+        select * from mesg
+    </select>
+    <select id="insertMesg" resultType="com.example.demo.entity.Mesg">
+        insert into mesg values(#{id},#{username},#{createdate},#{message})
+    </select>
+    <select id="updateMesg" resultType="com.example.demo.entity.Mesg">
+        update mesg set message = #{message} where id = #{id}
+    </select>
+    <select id="deleteMesgById" resultType="com.example.demo.entity.Mesg">
+        delete from mesg where id = #{id}
+    </select>
+</mapper>
